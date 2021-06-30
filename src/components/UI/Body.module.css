@@ -1,0 +1,44 @@
+.body {
+  /* border: 1px solid black; */
+  width: 95%;
+  height: 2850px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.daydiv {
+  /* border: 1px solid red; */
+  float: left;
+  width: 100%;
+}
+
+.daydiv h1 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+  margin-right: 70%;
+  /* border: 1px solid black; */
+}
+
+.daydiv h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #111;
+}
+.daydiv h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1.5px;
+  width: 95%;
+  max-width: 255px;
+  background-color: #333;
+}

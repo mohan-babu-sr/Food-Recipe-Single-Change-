@@ -1,0 +1,28 @@
+.ingredientlist {
+  list-style: none;
+  text-align: center;
+  margin-top: 0.3rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  margin-bottom: 7px;
+  padding: 5px 0 5px 0;
+  height: 40px;
+  width: 95%;
+  overflow-y: auto;
+}
+
+.ingredientlist::-webkit-scrollbar {
+  display: none;
+}
+
+.ingredienttext {
+  /* width: 100%; */
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+.ingredientweight {
+  color: #458671;
+  font-size: 1rem;
+}
